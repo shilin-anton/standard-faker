@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.email = ["anton.d.shilin@gmail.com"]
 
   spec.summary = "A Standard plugin that adds rubocop-faker specific rules to Standard."
-  spec.homepage = "https://github.com/shilin-anton/standard-rspec"
+  spec.homepage = "https://github.com/shilin-anton/standard-faker"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 2.7.0"
 
