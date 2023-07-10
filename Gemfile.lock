@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    standard-faker (0.1.0)
+    standard-faker (0.1.1)
       lint_roller (~> 1.0)
       rubocop-faker (~> 1.1.0)
 
