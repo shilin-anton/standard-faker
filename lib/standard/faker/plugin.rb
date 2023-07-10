@@ -8,7 +8,7 @@ module Standard
           name: "standard-faker",
           version: VERSION,
           homepage: "https://github.com/shilin-anton/standard-faker",
-          description: "Configuration for rubocop-faker rules"
+          description: "Configuration for rubocop-faker rules."
         )
       end
 
