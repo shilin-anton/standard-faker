@@ -8,7 +8,7 @@ Add this to your Gemfile, to install:
 
 ## Usage
 
-In your `.standard.yml` file, you can list standard-rspec as a plugin:
+In your `.standard.yml` file, you can list standard-faker as a plugin:
 ```
 plugins:
   - standard-faker

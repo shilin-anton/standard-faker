@@ -36,11 +36,11 @@ module Standard
       #
       # See: https://github.com/koic/rubocop-faker/blob/master/lib/rubocop-faker.rb#L9
       #
-      # As an alternative, standard-rspec loads the cops directly, and then
+      # As an alternative, standard-faker loads the cops directly, and then
       # simply tells the RuboCop config loader that it's been loaded. This is
       # taking advantage of a private API of an `attr_reader` that probably wasn't
       # meant to be mutated externally, but it's better than the `Inject` monkey
-      # patching that rubocop-rspec does (and many other RuboCop plugins do)
+      # patching that rubocop-faker does (and many other RuboCop plugins do)
       def trick_rubocop_into_thinking_we_required_rubocop_faker!
         without_warnings do
           require_relative "load_rubocop_faker_without_the_monkey_patch"
